@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E29A9DB-2A2D-4AA6-A6E6-D6ED6CDB647B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PileUp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6E27A2025AE2E140E2E749B6B839FB61FECE8A07</key>
+		<string>github.com:SuzukiYuka/MizubuuPileUp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PileUp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6E27A2025AE2E140E2E749B6B839FB61FECE8A07</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:SuzukiYuka/MizubuuPileUp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6E27A2025AE2E140E2E749B6B839FB61FECE8A07</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E27A2025AE2E140E2E749B6B839FB61FECE8A07</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PileUp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

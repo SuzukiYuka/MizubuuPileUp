@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let scene = GameScene()
         
-        let view = self.view as SKView
+        let view = self.view as! SKView
         
         view.showsFPS = false
         

@@ -85,17 +85,20 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        if let touch: AnyObject = touches.anyObject() {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        if let touch = touches.first as? UITouch {
             let location = touch.locationInNode(self)
-            
             let action = SKAction.moveTo(CGPoint(x: location.x, y: 100), duration: 0.2)
             self.bowl?.runAction(action)
         }
+        
+        if self.paused == true {
+            //Gameover
+            NSLog("retry")
+        }
     }
-    
-    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
-        if let touch: AnyObject = touches.anyObject() {
+    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+        if let touch = touches.first as? UITouch {
             let location = touch.locationInNode(self)
             let action = SKAction.moveTo(CGPoint(x: location.x, y: 100), duration: 0.2)
             self.bowl?.runAction(action)
